@@ -31,6 +31,6 @@ class ShowViewModel: ObservableObject {
                     }
                 }
             }
-        }
+        }.resume() //end of url session bracket
     }
 }

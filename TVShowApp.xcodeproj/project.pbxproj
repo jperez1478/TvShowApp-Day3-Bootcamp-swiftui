@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8ED6549326C03B53003511D4 /* TVShowAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6549226C03B53003511D4 /* TVShowAppApp.swift */; };
-		8ED6549526C03B53003511D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6549426C03B53003511D4 /* ContentView.swift */; };
+		8ED6549526C03B53003511D4 /* ShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6549426C03B53003511D4 /* ShowsView.swift */; };
 		8ED6549726C03B54003511D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6549626C03B54003511D4 /* Assets.xcassets */; };
 		8ED6549A26C03B54003511D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6549926C03B54003511D4 /* Preview Assets.xcassets */; };
 		8ED654A526C03CAE003511D4 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A426C03CAE003511D4 /* TVShow.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		8ED6548F26C03B53003511D4 /* TVShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED6549226C03B53003511D4 /* TVShowAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowAppApp.swift; sourceTree = "<group>"; };
-		8ED6549426C03B53003511D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8ED6549426C03B53003511D4 /* ShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsView.swift; sourceTree = "<group>"; };
 		8ED6549626C03B54003511D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ED6549926C03B54003511D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ED6549B26C03B54003511D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		8ED654A326C03C1E003511D4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8ED6549426C03B53003511D4 /* ContentView.swift */,
+				8ED6549426C03B53003511D4 /* ShowsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ED654AB26C0402F003511D4 /* TVShowImage.swift in Sources */,
-				8ED6549526C03B53003511D4 /* ContentView.swift in Sources */,
+				8ED6549526C03B53003511D4 /* ShowsView.swift in Sources */,
 				8ED6549326C03B53003511D4 /* TVShowAppApp.swift in Sources */,
 				8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */,
 				8ED654AD26C04101003511D4 /* ShowViewModel.swift in Sources */,

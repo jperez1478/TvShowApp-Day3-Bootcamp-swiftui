@@ -25,7 +25,9 @@ class ShowViewModel: ObservableObject {
                     let decoder = JSONDecoder() //decode data
                     do {
                         let shows = try decoder.decode([TVShow].self, from: data)  //if succed then retrieve array of shows
-                        self.shows = shows
+                        DispatchQueue.main.async { //allows to go back to the main thread
+                            self.shows = shows
+                        }
                     } catch {
                         print(error.localizedDescription)
                     }

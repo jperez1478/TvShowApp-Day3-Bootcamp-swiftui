@@ -15,6 +15,7 @@
 		8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A626C03DF5003511D4 /* Schedule.swift */; };
 		8ED654A926C03E85003511D4 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A826C03E85003511D4 /* Ratings.swift */; };
 		8ED654AB26C0402F003511D4 /* TVShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654AA26C0402F003511D4 /* TVShowImage.swift */; };
+		8ED654AD26C04101003511D4 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654AC26C04101003511D4 /* ShowViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8ED654A626C03DF5003511D4 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		8ED654A826C03E85003511D4 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
 		8ED654AA26C0402F003511D4 /* TVShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImage.swift; sourceTree = "<group>"; };
+		8ED654AC26C04101003511D4 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		8ED654A226C03BC4003511D4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8ED654AC26C04101003511D4 /* ShowViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				8ED6549526C03B53003511D4 /* ContentView.swift in Sources */,
 				8ED6549326C03B53003511D4 /* TVShowAppApp.swift in Sources */,
 				8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */,
+				8ED654AD26C04101003511D4 /* ShowViewModel.swift in Sources */,
 				8ED654A926C03E85003511D4 /* Ratings.swift in Sources */,
 				8ED654A526C03CAE003511D4 /* TVShow.swift in Sources */,
 			);

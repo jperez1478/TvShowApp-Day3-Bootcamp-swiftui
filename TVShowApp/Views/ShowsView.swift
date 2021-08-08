@@ -27,10 +27,16 @@ struct ShowsView: View {
             ScrollView { //embed content in scrollview
                 LazyVGrid(columns: columns, content: {  //for each to display dif show
                     ForEach(showViewModel.shows) { show in
-                        
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(height: 150)
                     }
-                })
-            }
+                }) //: end of lazy vgrid
+                .padding()
+            } //: end of scrollview
+            .navigationTitle("TV Shows")
+            .onAppear(perform: {
+                showViewModel.fetchTVShows()
+            })
         }
     }
 }

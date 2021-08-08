@@ -9,5 +9,5 @@ import Foundation
 
 struct TVShowImage: Decodable {
     var medium: URL
-    var original: URL 
+    var original: URL
 }

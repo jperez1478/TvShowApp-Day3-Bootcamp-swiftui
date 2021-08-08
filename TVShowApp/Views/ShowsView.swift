@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 
 
@@ -27,8 +28,17 @@ struct ShowsView: View {
             ScrollView { //embed content in scrollview
                 LazyVGrid(columns: columns, content: {  //for each to display dif show
                     ForEach(showViewModel.shows) { show in
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(height: 150)
+                        
+                        NavigationLink(
+                            destination: TVShowDetailView(tvShow: show),
+                            label: {
+                                WebImage(url:  show.image.medium)
+                                    .resizable()
+                                    .indicator(.activity)
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 150)
+                                    .cornerRadius(8)
+                            })
                     }
                 }) //: end of lazy vgrid
                 .padding()

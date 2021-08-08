@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		8ED654A926C03E85003511D4 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A826C03E85003511D4 /* Ratings.swift */; };
 		8ED654AB26C0402F003511D4 /* TVShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654AA26C0402F003511D4 /* TVShowImage.swift */; };
 		8ED654AD26C04101003511D4 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654AC26C04101003511D4 /* ShowViewModel.swift */; };
+		8ED654B026C05416003511D4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8ED654AF26C05416003511D4 /* SDWebImageSwiftUI */; };
+		8EF78A8C26C05644002A3DA1 /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF78A8B26C05644002A3DA1 /* TVShowDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		8ED654A826C03E85003511D4 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
 		8ED654AA26C0402F003511D4 /* TVShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowImage.swift; sourceTree = "<group>"; };
 		8ED654AC26C04101003511D4 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
+		8EF78A8B26C05644002A3DA1 /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED654B026C05416003511D4 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED6549426C03B53003511D4 /* ShowsView.swift */,
+				8EF78A8B26C05644002A3DA1 /* TVShowDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +129,9 @@
 			dependencies = (
 			);
 			name = TVShowApp;
+			packageProductDependencies = (
+				8ED654AF26C05416003511D4 /* SDWebImageSwiftUI */,
+			);
 			productName = TVShowApp;
 			productReference = 8ED6548F26C03B53003511D4 /* TVShowApp.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +159,9 @@
 				Base,
 			);
 			mainGroup = 8ED6548626C03B53003511D4;
+			packageReferences = (
+				8ED654AE26C05416003511D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 8ED6549026C03B53003511D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -179,6 +190,7 @@
 			files = (
 				8ED654AB26C0402F003511D4 /* TVShowImage.swift in Sources */,
 				8ED6549526C03B53003511D4 /* ShowsView.swift in Sources */,
+				8EF78A8C26C05644002A3DA1 /* TVShowDetailView.swift in Sources */,
 				8ED6549326C03B53003511D4 /* TVShowAppApp.swift in Sources */,
 				8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */,
 				8ED654AD26C04101003511D4 /* ShowViewModel.swift in Sources */,
@@ -372,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8ED654AE26C05416003511D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8ED654AF26C05416003511D4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8ED654AE26C05416003511D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8ED6548726C03B53003511D4 /* Project object */;
 }

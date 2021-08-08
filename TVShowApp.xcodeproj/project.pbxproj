@@ -12,6 +12,7 @@
 		8ED6549726C03B54003511D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6549626C03B54003511D4 /* Assets.xcassets */; };
 		8ED6549A26C03B54003511D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6549926C03B54003511D4 /* Preview Assets.xcassets */; };
 		8ED654A526C03CAE003511D4 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A426C03CAE003511D4 /* TVShow.swift */; };
+		8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED654A626C03DF5003511D4 /* Schedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8ED6549926C03B54003511D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ED6549B26C03B54003511D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ED654A426C03CAE003511D4 /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		8ED654A626C03DF5003511D4 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				8ED654A426C03CAE003511D4 /* TVShow.swift */,
+				8ED654A626C03DF5003511D4 /* Schedule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				8ED6549526C03B53003511D4 /* ContentView.swift in Sources */,
 				8ED6549326C03B53003511D4 /* TVShowAppApp.swift in Sources */,
+				8ED654A726C03DF5003511D4 /* Schedule.swift in Sources */,
 				8ED654A526C03CAE003511D4 /* TVShow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
